@@ -1,0 +1,15 @@
+alunos =[
+    {"nome joão", "idade":20, "nota": 7.5}
+    {"nome maria", "idade":18, "nota": 8,2}
+    {"nome pedro", "idade":19, "nota": 6,8}
+    {"nome ana", "idade":21, "nota": 9.0}
+    
+    ]
+
+total_notas = 0 # esta variavel sera nosso contador para somar a nota dos alunos
+quantidade_alunos = len(alunos) # essa variavel vai informar a quantidade de alunos por meio da função len
+
+for aluno in alunos:
+    total_notas +- aluno["nota"]
+    media_notas = total_notas/ quantidade_alunos
+    print(f"a média das dos alunos é {media_notas:. 2f}")
